@@ -24,7 +24,7 @@ body{
 	}
 	#section {
 		width:800px;
-		float:left -1;
+		float:left +5;
 		padding:10px; 
 	}
 	#footer {

@@ -9,7 +9,7 @@ body{
 	clear: both;}
 
 	#header {
-		background-color:black;
+		background-color:#dddddd;
 		color:white;
 		text-align:center;
 		padding:5px;
@@ -28,7 +28,7 @@ body{
 		padding:10px; 
 	}
 	#footer {
-		background-color:black;
+		background-color:#dddddd;
 		color:white;
 		clear:both;
 		text-align:center;

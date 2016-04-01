@@ -18,13 +18,13 @@ body{
 		line-height:30px;
 		background-color:#eeeeee;
 		height:700px;
-		width:100px;
+		width:95px;
 		float:left;
 		padding:5px; 
 	}
 	#section {
-		width:800px;
-		float:left;
+		width:700px;
+		float:left -1;
 		padding:10px; 
 	}
 	#footer {

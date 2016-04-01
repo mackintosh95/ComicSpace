@@ -24,14 +24,14 @@ body{
 		padding:5px; 
 		border-style: solid;
 		border-color:#ff0000;
-		border-width:2px;
+		border-width:3px;
 	}
 	#section {
 		width:800px;
-		clear: right ;
+		clear:right ;
 		padding:10px; 
 		border-style: solid;
-		border-width: 2px;
+		border-width: 3px;
 		border-color:#ff0000;
 	}
 	#footer {

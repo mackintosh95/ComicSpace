@@ -21,6 +21,8 @@ body{
 		width:95px;
 		float:left;
 		padding:5px; 
+		border-color:#ff0000;
+		border-width:2px;
 	}
 	#section {
 		width:800px;

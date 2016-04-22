@@ -1,13 +1,13 @@
 <style>
 
-body{
-	background-color: #ff0000;
-	width: 975px;
-	display: inline;
-	font-family: Arial, Helvetica, sans-serif;
-	margin-bottom: 100px;
-	clear: both;
-}
+	body{
+		background-color: #ff0000;
+		width: 975px;
+		display: inline;
+		font-family: Arial, Helvetica, sans-serif;
+		margin-bottom: 100px;
+		clear: both;
+	}
 
 	#head {
 		background-color:#dddddd;
@@ -15,6 +15,7 @@ body{
 		text-align:center;
 		padding:5px;
 		}
+		
 	#nav {
 		line-height:30px;
 		background-color:#eeeeee;
@@ -26,6 +27,7 @@ body{
 		border-color:#ff0000;
 		border-width:3px;
 		}
+		
 	#section {
 		width:800px;
 		clear:right ;
@@ -34,6 +36,7 @@ body{
 		border-width: 3px;
 		border-color:#ff0000;
 		}
+		
 	#footer {
 		background-color:#dddddd;
 		color:black;

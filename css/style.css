@@ -51,7 +51,7 @@ section.post{
 	box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
   	margin:   25px auto 50px;
   	height:   175px;
-  	padding:  5px 5px 8px;
+  	padding:  2px 5px 8px;
   	position: relative;
   	width:    975px;
 }
@@ -60,7 +60,7 @@ section.details{
 	box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 	margin:   25px auto 50px;
   	height:   100px;
-  	padding:  5px 5px 8px;
+  	padding:  2px 5px 8px;
   	position: relative;
   	width:    975px;
 }

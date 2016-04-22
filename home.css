@@ -23,6 +23,7 @@
 		width:95px;
 		float:left;
 		padding:5px;
+		padding-right:5px;
 		border-style: solid;
 		border-color:#ff0000;
 		border-width:3px;
@@ -32,7 +33,7 @@
 		width:800px;
 		clear:right ;
 		padding:15px; 
-		padding-right:5px;
+		padding-left:5px;
 		border-style: solid;
 		border-width: 3px;
 		border-color:#ff0000;

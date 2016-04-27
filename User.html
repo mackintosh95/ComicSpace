@@ -13,8 +13,7 @@
 		<!-- Link to javscript with commands-->
 		<script src="js/spiderman.js">
 			function(){
-				characterName = data.results.name;
-				
+				characterName = data.data.results.name;
 			}
 			
 		</script>
@@ -50,7 +49,7 @@
 			    		</ul>
 			  	</section>
 			  	<!-- Name of superhero / villain / anti-hero-->
-			  	<h1>{{characterName}} </h1>
+			  	<h1> characterName </h1>
 			</header>
 		
 		  	<script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>

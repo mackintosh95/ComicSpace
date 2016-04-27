@@ -1,4 +1,4 @@
-var app = angular.module('Comics',['ui.router','infinite-scroll']);
+var app = angular.module('Comics');
 
 app.config(function ($stateProvider, $urlRouterProvider) {
 	$stateProvider.state('index', {
@@ -18,9 +18,9 @@ app.controller('MainCtrl',function($scope, ComicBooks) {
 	$scope.more = new ComicBooks.LoadMore($scope);
 });
 
-app.controller('SingleCharacter', function($scope, $rootScope, $stateParams, ComicBooks, $window) {
+app.controller('SingleCharacter', function($scope, $rootScope, $stateParams, ComicSpace, $window) {
 	var id = 1009610;
-	//ComicBooks.findOne(id).then(function(result) {
+	ComicSpace.findOne(id).then(function(result) {
 		var data = result.data.results[0];
 		$scope.characterName = data.name;
 		$scope.characterUrl = data.urls[0].url;
@@ -52,7 +52,7 @@ app.directive('popup',function() {
 	};
 });
 
-app.factory('ComicBooks',function($http,$q) {
+app.factory('ComicSpace',function($http,$q) {
 	//For Client Side
 	//Where apikey is public key
 	//http://gateway.marvel.com/v1/comics/?ts=1&apikey=1234

@@ -1,26 +1,26 @@
 var app = angular.module('Comics');
 
 app.config(function ($stateProvider, $urlRouterProvider) {
-	$stateProvider.state('index', {
+	$stateProvider.state('User', {
 		url: '',
 		controler: 'MainCtrl',
 		templateUrl: 'templates/character.html'
 	})
-	.state('index.single', {
+	.state('User.single', {
 		url: '/:id',
 		templateUrl: 'templates/characterPopUp.html',
 		controller: 'SingleCharacter'
 	});
 });
 
-app.controller('MainCtrl',function($scope, ComicBooks) {	
+app.controller('MainCtrl',function($scope, ComicSpace) {	
 	//use this to get data
-	$scope.more = new ComicBooks.LoadMore($scope);
+	$scope.more = new ComicSpace.LoadMore($scope);
 });
 
 app.controller('SingleCharacter', function($scope, $rootScope, $stateParams, ComicSpace, $window) {
 	var id = 1009610;
-	ComicSpace.findOne(id).then(function(result) {
+	ComicSpace.then(function(result) {
 		var data = result.data.results[0];
 		$scope.characterName = data.name;
 		$scope.characterUrl = data.urls[0].url;

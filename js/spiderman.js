@@ -14,7 +14,7 @@ function getMarvel(){
 	alert(hash);
 	alert(url);
 	console.log(url);
-	$.ajax({url: url, context:$h1}).done(function(data){
+	$.ajax({url: url, context:document.getElementById('h1')}).done(function(data){
 		$('#results').html('');
 		$('results').append(data.name);
 	})

@@ -29,7 +29,7 @@ $(function(){
 				
 				for(var i=0; i<resultsLen; i++){
 					name += '' + results[i].name;
-					$('#details').append(name);
+					$('.details').append(name);
 				
 				}
 			

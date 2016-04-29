@@ -21,7 +21,7 @@ $(function(){
 		dataType: "json",
 		data: "name=value",
 		success: function(response){
-			//$.each(response, function(i, item){
+			$.each(response, function(i, item){
 				var results = response.data.results;
 				var resultsLen = results.length;
 				var name = '';
@@ -29,9 +29,10 @@ $(function(){
 				
 				for(var i=0; i<resultsLen; i++){
 					name += '' + results[i].name;
+					$('#details').append(name);
 				
 				}
-			$header.append(name);
+			
 			console.log(response);
 			
 			}

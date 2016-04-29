@@ -5,7 +5,7 @@ var id = '1009610';
 var ts = new Date().getTime();
 //var crypto = require('crypto');
 var string = ts + private_key + public_key;
-//console.log(crypto.createHash('md5').update(string).digest());
+//console.log(crypto.createHash('md5').update(string).digest('hex'));
 
 var hash = CryptoJS.MD5(string);
 

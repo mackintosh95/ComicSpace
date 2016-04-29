@@ -22,7 +22,7 @@
 		height:546px;
 		width:200px;
 		float:left;
-		padding:5px;
+		padding:25px;
 		padding-right:5px;
 		border-style: solid;
 		border-color:#ff0000;
@@ -49,7 +49,7 @@
 		color:black;
 		clear:both;
 		text-align:center;
-		padding:25px; 
+		padding:5px; 
 		}
 	
 </style>

@@ -2,7 +2,7 @@
 
 	body{
 		background-color: #ff0000;
-		width: 975px;
+		
 		display: inline;
 		font-family: Arial, Helvetica, sans-serif;
 		margin-bottom: 100px;
@@ -30,7 +30,7 @@
 		}
 		
 	#section {
-		width:800px;
+		width:900px;
 		clear:right ;
 		padding:15px 5px 15px;
 		padding-left:5px;

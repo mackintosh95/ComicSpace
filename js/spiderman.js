@@ -35,11 +35,11 @@ $(function(){
 			
 			console.log(response);
 			
-			})
-		})
-	})
+			});
+		}
+	});
 			
-})
+});
 
 $('#description').text= response.data.results[0].description
 

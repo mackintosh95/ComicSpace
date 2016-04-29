@@ -14,10 +14,10 @@ $.getJSON( marvelAPI, {
 	  
 	//var name = results
       	for(var i=0; i<resultsLen; i++){
-        	if(results[i].images.length > 0) {
+        	//if(results[i].images.length > 0) {
           		name += results[i].name;
 			//output += '<li><img src="' + imgPath + '"><br>'+results[i].title+'</li>';
-        	}
+        	//}
       	}  
       	//output += '</ul>'
       	//$('#results').append(output);

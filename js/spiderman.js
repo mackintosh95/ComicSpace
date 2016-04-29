@@ -35,7 +35,7 @@ $(function(){
 			
 			console.log(response);
 			
-			}
+			})
 		})
 			
 })

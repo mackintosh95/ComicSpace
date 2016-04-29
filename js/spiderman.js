@@ -41,5 +41,5 @@ $(function(){
 			
 });
 
-$('#description').text= response.data.results[0].description
+//$('#description').text= response.data.results[0].description
 

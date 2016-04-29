@@ -1,4 +1,4 @@
-<script src="js/md5.min.js"></script>
+
 var private_key = '63823d9c3343ef191f88b0f44c0dbe6d7cce7e4e';
 var public_key = '6f769846a34acb7b0299a000d488f562';
 var id = '1009610';

@@ -15,22 +15,22 @@ $(function()){
 	$.ajax({
 		type: 'GET',
 		url: "'https://gateway.marvel.com/v1/public/characters/1009610?ts="+ts+"&hash="+hash+"apikey=" + public_key,
-		success: function(data){
-			//console.log(url) {
-      var results = date.data.results;
-      var resultsLen = results.length;
-      var output = ''; 
-      
-      for(var i=0; i<resultsLen; i++){
-        //if(results[i].images.length > 0) {
-          //var imgPath = results[i].images[0].path + '/standard_xlarge.' + results[i].images[0].extension;
-          output += '' +results[i].name;
-        }
-      } 
-      $header.append(output);
-  });
+		dataType: "json";
+		data: "name=value";
+		success: function(response){
+			//$.each(response, function(i, item){
+				var results = response.data.results;
+				var resultsLen = results.length;
+				var name = '';
+				var desc = '';
 				
-			//}
-		}
-	)
+				for(var i=0; i<resultsLen; i++){
+					name += '' + results[i].name;
+				
+				}
+			$header.append(name);
+			
+			}
+		})
+			
 }

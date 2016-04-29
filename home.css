@@ -28,7 +28,7 @@
 		padding-bottom:75px;
 		border-style: solid;
 		border-color:#ff0000;
-		border-width:3px;
+		border-width:0px;
 		}
 		
 	#section {
@@ -37,7 +37,7 @@
 		padding:300px 250px 600px;
 		padding-left:600px;
 		border-style: solid;
-		border-width: 3px;
+		border-width: 0px;
 		border-color:#ff0000;
 		
 		#a {

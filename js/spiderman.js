@@ -32,6 +32,7 @@ $(function(){
 				
 				}
 			$header.append(name);
+			console.log(response);
 			
 			}
 		})

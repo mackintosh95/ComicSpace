@@ -11,7 +11,7 @@ var hash = crypto.createHash('md5').update(string).digest('hex');
 
 
 
-$(function()){
+$(function(){
 	
 	var $header = $('#h1');
 	

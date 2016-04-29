@@ -27,13 +27,13 @@ $(function(){
 				var name = '';
 				var desc = '';
 				
-				//for(var i=0; i<resultsLen; i++){
-					var name = results[0].name;
-					var description = results[0].description;
+				for(var i=0; i<resultsLen; i++){
+					var name = results[i].name;
+					var description = results[i].description;
 					$('.details').append(name);
 					$('.details').append(description);
 				
-				//}
+				}
 			
 			console.log(response);
 			

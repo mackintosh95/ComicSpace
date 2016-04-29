@@ -17,7 +17,7 @@ $(function(){
 	
 	$.ajax({
 		type: 'GET',
-		url: "https://gateway.marvel.com/v1/public/characters/1009610?ts="+ts+"&hash="+hash+"apikey=" + public_key,
+		url: "https://gateway.marvel.com/v1/public/characters/1009610?ts="+ts+"&hash="+hash+"&apikey=" + public_key,
 		dataType: "json",
 		data: "name=value",
 		success: function(response){

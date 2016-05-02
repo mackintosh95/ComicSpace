@@ -29,9 +29,11 @@ $(function(){
 				var name = results[i].name;
 				var description = results[i].description;
 			//	var image = results[i].thumbnail;
+				var events = results[i].collectionURI;
 				$('.details').append(name);
 				$('.details').append(description);
 			//	$('.profile-picture').append(image);
+				$('.events').append(events);
 			}
 			
 			console.log(response);

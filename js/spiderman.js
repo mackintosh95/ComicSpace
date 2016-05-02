@@ -24,8 +24,6 @@ $(function(){
 			
 			var results = response.data.results;
 			var resultsLen = results.length;
-			var events = response.data.events;
-			var eventsLen = events.length;
 				
 			for(var i=0; i<resultsLen; i++){
 				var name = results[i].name;
@@ -34,11 +32,6 @@ $(function(){
 				$('.details').append(name);
 				$('.details').append(description);
 			//	$('.profile-picture').append(image);
-			}
-			
-			for(var i=0; i<eventsLen; i++){
-				var eventsLink = events[i].collectionURI;
-				$('.events').append(eventsLink);
 			}
 			
 			console.log(response);

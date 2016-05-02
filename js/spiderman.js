@@ -22,18 +22,18 @@ $(function(){
 		data: "name=value",
 		success: function(response){
 			
-				var results = response.data.results;
-				var resultsLen = results.length;
+			var results = response.data.results;
+			var resultsLen = results.length;
 				
-				for(var i=0; i<resultsLen; i++){
-					var name = results[i].name;
-					var description = results[i].description;
-					var image = results[i].thumbnail;
-					$('.details').append(name);
-					$('.details').append(description);
-					$('.profile-picture').append(image);
+			for(var i=0; i<resultsLen; i++){
+				var name = results[i].name;
+				var description = results[i].description;
+				var image = results[i].thumbnail;
+				$('.details').append(name);
+				$('.details').append(description);
+				$('.profile-picture').append(image);
 				
-				}
+			}
 			
 			console.log(response);
 			

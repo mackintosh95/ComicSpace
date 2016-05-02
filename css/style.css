@@ -65,6 +65,10 @@ section.details{
   	width:    975px;
 }
 
+section.twitter{
+	position: relative;
+}
+
 #h1 {
   	color: #aaaaaa;
   	font-size: .5em;

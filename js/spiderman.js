@@ -21,11 +21,9 @@ $(function(){
 		dataType: "json",
 		data: "name=value",
 		success: function(response){
-			$.each(response, function(i, item){
+			
 				var results = response.data.results;
 				var resultsLen = results.length;
-				var name = '';
-				var desc = '';
 				
 				for(var i=0; i<resultsLen; i++){
 					var name = results[i].name;
@@ -39,7 +37,7 @@ $(function(){
 			
 			console.log(response);
 			
-			});
+			
 		}
 	});
 			

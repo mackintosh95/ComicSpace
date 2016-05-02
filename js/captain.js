@@ -23,7 +23,7 @@ $(function(){
 			var resultsLen = results.length;
 			var name = '';
 			var desc = '';
-				
+			//gets the required information from the response from the api and adds it to the chosen area of the html	
 			for(var i=0; i<resultsLen; i++){
 				var name = results[i].name;
 				var description = results[i].description;

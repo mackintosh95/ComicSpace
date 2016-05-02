@@ -22,7 +22,8 @@ $(function(){
 		
 			var results = response.data.results;
 			var resultsLen = results.length;
-				
+			//gets the required information from the response from the api and adds it to the chosen area of the html
+			//This has stopped working and I'm unsure why because all the others work
 			for(var i=0; i<resultsLen; i++){
 				var name = results[i].name;
 				var description = results[i].description;
